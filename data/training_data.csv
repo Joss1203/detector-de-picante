@@ -1,0 +1,28 @@
+text,label
+"El chile habanero es extremadamente picante",pica
+"Los jalapeños tienen un nivel moderado de picante",pica
+"Esta salsa de tomate no pica nada",no_pica
+"El pan dulce es suave y delicioso",no_pica
+"¿Los pimientos morrones pican?",no_pica
+"El ají rocoto arde bastante",pica
+"La pimienta cayena es muy ardiente",pica
+"Las fresas son dulces",no_pica
+"Este queso es cremoso",no_pica
+"La salsa tabasco quema la lengua",pica
+"¿Picará el curry mañana?",pica
+"Ayer probé un chile que picaba mucho",pica
+"El chocolate no contiene capsaicina",no_pica
+"Los chiles serranos son picantes",pica
+"Esta ensalada está fresca",no_pica
+"El wasabi pica fuerte",pica
+"Las manzanas son crujientes",no_pica
+"¿El jengibre pica?",no_pica
+"Los chiles chipotles ahumados pican",pica
+"El helado de vainilla es suave",no_pica
+"¿Pica este picahielo? ",no_pica
+"La ortiga pica al contacto",pica
+"pincha",pica
+"pinchar",pica
+"La aguja pincha tela",pica
+"Si el erizo me pinchara, me dolería",no_pica
+"pico",pica

@@ -1,0 +1,26 @@
+{
+  "picar_comida": [
+    "causar ardor o escozor en la boca",
+    "provocar sensación de picante",
+    "tener sabor picante",
+    "producir irritación por sustancias picantes"
+  ],
+  "picar_insectos": [
+    "introducir el aguijón o las piezas bucales",
+    "morder con insecto",
+    "herir con aguijón",
+    "punzar con picadura"
+  ],
+  "picar_objetos": [
+    "punzar con objeto puntiagudo",
+    "herir con punta",
+    "agujerear con herramienta",
+    "perforar con instrumento"
+  ],
+  "picar_sensacion": [
+    "sentir comezón o picazón",
+    "experimentar escozor",
+    "notar irritación en la piel",
+    "percibir ardor"
+  ]
+}
