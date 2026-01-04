@@ -41,7 +41,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
 
       if (response.ok) {
         toast({
-          title: "🔥 Ejemplo añadido",
+          title: " Ejemplo añadido",
           description: "El ejemplo se guardó para mejorar el modelo.",
         })
         setText("")
@@ -65,7 +65,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
 
       if (response.ok) {
         toast({
-          title: "🧠 Modelo reentrenado",
+          title: "Modelo reentrenado",
           description: "El modelo se actualizó con los nuevos datos.",
         })
         onTrainingComplete()
@@ -84,7 +84,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
   return (
     <div className="grid gap-8 md:grid-cols-2">
 
-      {/* ================= AÑADIR EJEMPLO ================= */}
+      
       <Card
         className="
           relative overflow-hidden
@@ -116,7 +116,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
         <CardContent className="relative">
           <form onSubmit={handleSubmit} className="space-y-6">
 
-            {/* TEXTO */}
+            
             <div className="space-y-2">
               <Label className="text-sm text-muted-foreground">Texto</Label>
               <Input
@@ -135,7 +135,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
               />
             </div>
 
-            {/* CLASIFICACIÓN */}
+            
             <div className="space-y-3">
               <Label className="text-sm text-muted-foreground">
                 Clasificación
@@ -174,7 +174,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
               </RadioGroup>
             </div>
 
-            {/* BOTÓN */}
+            
             <Button
               type="submit"
               disabled={loading}
@@ -195,7 +195,7 @@ export function TrainingView({ onTrainingComplete }: TrainingViewProps) {
         </CardContent>
       </Card>
 
-      {/* ================= REENTRENAR ================= */}
+      
       <Card
         className="
           relative overflow-hidden
