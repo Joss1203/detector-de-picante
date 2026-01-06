@@ -7,7 +7,10 @@ dictionary_definitions = {
         "causar ardor o escozor en la boca",
         "provocar sensación de picante",
         "tener sabor picante",
-        "producir irritación por sustancias picantes"
+        "producir irritación por sustancias picantes",
+        "generar sensación de quemazón en la lengua",
+        "causar una sensación de picor al comer",
+        "provocar una reacción de escozor en la boca"
     ],
     "picar_insectos": [
         "introducir el aguijón o las piezas bucales",
@@ -19,13 +22,17 @@ dictionary_definitions = {
         "punzar con objeto puntiagudo",
         "herir con punta",
         "agujerear con herramienta",
-        "perforar con instrumento"
+        "perforar con instrumento",
+        "pinchar con un objeto afilado",
+        "clavar con algo puntiagudo",
+        "causar una herida pequeña con un objeto punzante"
     ],
     "picar_sensacion": [
         "sentir comezón o picazón",
         "experimentar escozor",
         "notar irritación en la piel",
-        "percibir ardor"
+        "percibir ardor",
+        "tener sensación de hormigueo o cosquilleo"
     ]
 }
 
@@ -50,7 +57,7 @@ vocabulary = {
         "anzuelo", "broche", "gancho", "astilla"
     ],
     "herramientas": [
-        "picahielo", "picador", "pica", "punzón", "lezna", "berbiquí"
+        "picahielo", "picador", "pica", "punzón", "lezna", "berbiquí", "cuchillo", "tenedor", "compás", "destornillador"
     ],
     "plantas": [
         "cactus", "nopal", "ortiga", "zarza", "rosal", "espino", "cardón"
@@ -69,7 +76,8 @@ vocabulary = {
         "queso", "pasta", "arroz", "papa", "zanahoria", "lechuga"
     ],
     "pronombres": [
-        "me", "te", "le", "nos", "les", "se"
+        "me", "te", "le", "nos", "les", "se", "lo", "la", "los", "las",
+        "mí", "ti", "sí", "ello"
     ],
     "sujetos": [
         "yo", "tú", "él", "ella", "nosotros", "ellos", "ellas",
@@ -150,6 +158,7 @@ sentence_patterns.extend([
     ("Comeremos chile después", "no_pica"),
     ("Probará algo que pica", "no_pica"),
     ("El año que viene comeré picante", "no_pica"),
+    ("La próxima semana probaré comida picante", "no_pica"),
 ])
 
 # 8. NO PICA - Objetos solo mencionados
